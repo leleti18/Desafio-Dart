@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="repo.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1> Chamada de repositórios </h1>
+
+    <p>
+        Neste desafio o objetivo é utilizar um API do Github e com isto fazer uma chamada de repositórios.
+        Sendo isto :
+        Construa uma chamada para obter a listagem dos repositórios públicos do Github através da API:
+        https://api.github.com/repositories.
+    </p>
+
+    <label for="repositorio">ID do Repositório</label>
+    <input  id= "repositorio" type="text" name="repositorio"/>
+    <button id="botao_buscar" type="button">Buscar Repositorios</button>
+
+
+    <div>
+        <img id= "avatar" src ="" alt=""/>
+        <h2 id="usuario_nome"></h2>
+        <h2 id="usuario_description"></h2>
+    </div>
+
+
+    <table id="tabela"></table>
+    <script src="repo.js">
+        console.log(main())
+    </script> 
+    
+</body>
+</html>
